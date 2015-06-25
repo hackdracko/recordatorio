@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Recordatorios</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -52,11 +52,22 @@
     </nav>
 
     <div class="container">
-
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
+        <h1>Recordatorio</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
+
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Agregar Proyecto</div>
+        <div class="panel-body">
+          Agrega Proyecto <input type="text" name="txtProyecto" id="txtProyecto"></input><button name="btnAgregar" id="btnAgregar">Agregar</button>
+        </div>
+      </div>      
+
+
+      <div class="divActividades"></div>
 
     </div><!-- /.container -->
 
@@ -68,5 +79,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/functions.js"></script>
   </body>
 </html>
